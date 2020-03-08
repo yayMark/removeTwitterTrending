@@ -1,0 +1,12 @@
+{
+  "name": "Remove Twitter Trending",
+  "version": "0.0.1",
+  "description": "Remove the Trending content block from Twitter so you don't fall down a well of despair when getting up to date on people you follow.",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://twitter.com/*"],
+      "js" : ["app.js"]
+    }
+  ]
+}
